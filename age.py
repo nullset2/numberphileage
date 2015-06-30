@@ -19,6 +19,9 @@ while True:
     m = int(raw_input("Enter end year for year of birth range... "))
     p = int(raw_input("Enter max human age to compare against... "))
 
+    if (m <= n):
+      raise ValueError
+
   except ValueError:
     print "You cheeky monkey! You entered something that wasn't quite right!"
     continue
