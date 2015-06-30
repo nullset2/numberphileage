@@ -1,7 +1,7 @@
 # A quick and shitty script to solve the problem related to dates of birth, ages and their squares
 # as described in numberphile's video https://www.youtube.com/watch?v=99stb2mzspI
 # 
-# For all yob > 1980 (limit with an upper ending for scope), find all possible values of yob (year of birth)
+# For all yob in range, find all possible values of yob (year of birth)
 # such that yob + age = age^2 for a certain value of age
 # present solution as a list of tuples
 # For example: 1980 + 45 = 2025 = 45^2
